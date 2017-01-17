@@ -28,6 +28,5 @@ public class MainActivity extends AppCompatActivity {
     public void updateCounter(View view){
         count++;
         counter.setText(String.format("%1$d", count)); //"d" formats to a decimal integer
-        //counter.setText("420");
     }
 }
